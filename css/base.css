@@ -167,7 +167,7 @@ iframe{
 	
 	.block-background-image {
 	    backface-visibility: hidden;
-		background-attachment: fixed;
+		/* background-attachment: fixed; */
 	    background-position: center center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
