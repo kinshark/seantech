@@ -961,8 +961,8 @@
 								
 								<div class="block-form">
 									
-								<form class="contact-form clearfix" method="post" action="https://door.taolearning.org/api/form">
-									<input type="text" name="_gotcha" style="display:none">
+								<form class="contact-form clearfix" method="post" enctype="application/json" action="https://door.taolearning.org/api/form">
+									
 									<div style="display: flex;">
 										<div style="flex: 1; margin-right: 10px;">
 										<input type="text" placeholder="First Name *" value="" id="firstname" name="firstname">
@@ -977,6 +977,14 @@
 									<input type="hidden" name="_subject" value="Inquiry: Sean Tech">
 									<textarea name="information" placeholder="Message *" id="information" cols="45" rows="10"></textarea>
 									<input type="submit" value="Send Message" class="but opc white submit">
+									<input type="hidden" name="test" value="off">
+									<input type="hidden" name="owner" value="20bfadb9-4991-e911-a95b-000d3a34ec54">
+									<input type="hidden" name="website" value="https://seantech.co">
+									<input type="text" name="_gotcha" style="display:none" />
+									<input type="hidden" name="budget" value="">
+									<input type="hidden" name="campaign" value="Focus Hive">
+									<input type="hidden" name="token" value="">
+									<input type="hidden" name="formType" value="inquiry">
 								</form>
 
 
