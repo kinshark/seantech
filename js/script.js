@@ -119,9 +119,9 @@ $('.search-form i').on("click", function(){
 		
 // Form validation 
 
-var inputName = $('input#name');
+var inputName = $('input#firstname');
 var inputEmail = $('input#email');
-var textArea = $('textarea#message');
+var textArea = $('textarea#information');
 var contactForm = $('.contact-form');
 
 
